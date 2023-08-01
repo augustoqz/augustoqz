@@ -1,0 +1,40 @@
+/* ponto de partida do HTML, espaço para declaração de variavéis globais
+a serem utilizada no trabalho inteiro*/
+
+:root{
+--cor-de-fundo:#dad7e2bd;
+--branco:#ffffff;
+--laranja:#ffa600;
+--azul-degradee: linear-gradiante(97.54deg,#002f52 35.40% #326589 165.37%);
+--preto:#000000;
+}
+
+/*Formata o corpo da pagina principal*/
+body{
+    background-color: var(--cor_de_fundo);
+}
+.cabeçalho{
+    background-color: #ffffff;
+}
+.container{
+    display: block;
+    position: absolute;
+    top: 5%;
+    width: auto;
+}
+
+
+.lista_menu{
+    display: flex;
+    align-items: center;
+
+}
+
+.cabeçalho_menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url(Menu\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
