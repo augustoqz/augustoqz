@@ -2,11 +2,12 @@
 a serem utilizada no trabalho inteiro*/
 
 :root{
---cor-de-fundo:#dad7e2bd;
+--cor-de-fundo:#b6b5b8bd;
 --branco:#ffffff;
 --laranja:#ffa600;
 --azul-degradee: linear-gradiante(97.54deg,#002f52 35.40% #326589 165.37%);
 --preto:#000000;
+--cinza:#979797;
 }
 
 /*Formata o corpo da pagina principal*/
@@ -14,14 +15,18 @@ body{
     background-color: var(--cor_de_fundo);
 }
 .cabeçalho{
-    background-color: #ffffff;
+    background-color:var(--branco) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .container{
-    display: block;
-    position: absolute;
-    top: 5%;
-    width: auto;
+    display: flex;
+    align-items: center;
+ 
 }
+
 
 
 .lista_menu{
@@ -37,4 +42,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+}
+.container_imagem{
+    padding: 1em;
 }
