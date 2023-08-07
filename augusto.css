@@ -1,48 +1,55 @@
-/* ponto de partida do HTML, espaço para declaração de variavéis globais
-a serem utilizada no trabalho inteiro*/
+/* ponto de partida do HTML, espaço para declaração de variáveis globais a serem utilizada no trabalho inteiro*/
 
 :root{
---cor-de-fundo:#b6b5b8bd;
---branco:#ffffff;
---laranja:#ffa600;
---azul-degradee: linear-gradiante(97.54deg,#002f52 35.40% #326589 165.37%);
---preto:#000000;
---cinza:#979797;
-}
-
-/*Formata o corpo da pagina principal*/
-body{
-    background-color: var(--cor_de_fundo);
-}
-.cabeçalho{
-    background-color:var(--branco) ;
+    --cor-de-fundo:#EBECEE;
+    --branco:#FFFFFF;
+    --laranja:#EB9800;
+    --azul-degradee: linear-gradiente(97.54deg,#002f52 35.40% #326589 165.37%);
+    --preto:#000000;
+    
+    }
+    
+    /*forma o corpo da página principal*/
+    body{
+        background-color:rgb(255, 255, 255);
+    
+    }
+    
+    .cabeçalho{
+    background-color: #cccccc;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
-.container{
-    display: flex;
-    align-items: center;
- 
-}
-
-
-
-.lista_menu{
-    display: flex;
-    align-items: center;
-
-}
-
-.cabeçalho_menu-hamburguer{
-    width: 24px;
-    height: 24px;
-    background-image: url(Menu\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-}
-.container_imagem{
-    padding: 1em;
-}
+    
+    
+    }
+    .container{
+        display: flex;
+        align-items: center
+    
+    }
+    
+    .lista_menu{
+        display: block;
+        position: absolute;
+        top: 10%;
+        width: auto;
+        
+    }
+    .container_imagem{
+        padding: 1em;
+    }
+    
+    
+    
+    .cabeçalho_menu-hamburguer{
+    
+        width: 24px;
+        height: 24px;
+        background-image: url(Menu\ 1.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+    }
+     
+    
