@@ -1,0 +1,19 @@
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco:#FFFFFF;
+    --laranja:#EB9800;
+    --azul-degradee: linear-gradiente(97.54deg,#002f52 35.40% #326589 165.37%);
+    --preto:#000000;
+    --fonte-principal:"poppins";
+    --azul: #0011ff;
+    --fonte-secundaria:"Josefin Sans";
+    --cinza: #5e5d5d;
+    --cinza-claro: #c0bfbf;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
