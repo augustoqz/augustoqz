@@ -1,0 +1,27 @@
+@import url(style.css);
+@import url(style/pop_up.css);
+@import url(style/lista.css);
+@import url(style/conteudo.css);
+
+:root{
+    font-display: inherit;
+}
+
+body{
+    background-image: url("hero-img_copy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 70, 247, 0.521);
+    z-index: -1;
+}
